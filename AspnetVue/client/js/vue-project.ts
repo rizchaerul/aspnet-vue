@@ -6,8 +6,11 @@ import vSelect from "vue-select";
 import { VueEditor } from "vue2-editor";
 import { DateTime } from "luxon";
 import Paginate from "vuejs-paginate";
+import Dragable from "vuedraggable";
 
 import HelloWorld from "./components/HelloWorld.vue";
+
+Vue.component("dragable", Dragable);
 
 Vue.component("hello-world", HelloWorld);
 
